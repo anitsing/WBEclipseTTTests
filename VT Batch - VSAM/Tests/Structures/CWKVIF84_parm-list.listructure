@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 25.2.1.v20250915-2137_91?>
+<!--BMC AMI DevX Total Test 25.2.1.v20250915-2137_91 Sep 18, 2025, 9:30:26 AM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Tests/Structures/CWKVIF84_parm-list.listructure">
+  <listructure:struct id="parm_list" name="parm_list">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">34</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">34</properties:property>
+    </properties:properties>
+    <listructure:number id="parm_list.parm_len" length="4" name="parm_len">
+      <properties:properties>
+        <properties:property name="picture" type="string">s9(4)</properties:property>
+        <properties:property name="usage" type="string">binary</properties:property>
+        <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">4</properties:property>
+        <properties:property name="integerDigits" type="number">4</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">binary</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:struct id="parm_list.parm_runtime_options" name="parm_runtime_options">
+      <properties:properties>
+        <properties:property name="displayLength" type="number">8</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">8</properties:property>
+      </properties:properties>
+      <listructure:string id="parm_list.parm_runtime_options.parm_ut2o_iop_mode" length="1" name="parm_ut2o_iop_mode">
+        <properties:properties>
+          <properties:property name="picture" type="string">x</properties:property>
+          <properties:property name="displayLength" type="number">1</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">x</properties:property>
+          <properties:property name="storageLength" type="number">1</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="parm_list.parm_runtime_options.parm_ut2o_move" length="1" name="parm_ut2o_move">
+        <properties:properties>
+          <properties:property name="picture" type="string">x</properties:property>
+          <properties:property name="displayLength" type="number">1</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">x</properties:property>
+          <properties:property name="storageLength" type="number">1</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="parm_list.parm_runtime_options.filler0" length="6" name="filler0">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">x(6)</properties:property>
+          <properties:property name="displayLength" type="number">6</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">x(6)</properties:property>
+          <properties:property name="storageLength" type="number">6</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+    <listructure:string id="parm_list.filler1" length="1" name="filler1">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="picture" type="string">x</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">x</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:number id="parm_list.parm_ut1_start_rn" length="5" name="parm_ut1_start_rn">
+      <properties:properties>
+        <properties:property name="picture" type="string">9(5)</properties:property>
+        <properties:property name="displayLength" type="number">5</properties:property>
+        <properties:property name="integerDigits" type="number">5</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">zoned</properties:property>
+        <properties:property name="mask" type="string">9(5)</properties:property>
+        <properties:property name="storageLength" type="number">5</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:string id="parm_list.filler2" length="1" name="filler2">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="picture" type="string">x</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">x</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:number id="parm_list.parm_ut1_read_count" length="5" name="parm_ut1_read_count">
+      <properties:properties>
+        <properties:property name="picture" type="string">9(5)</properties:property>
+        <properties:property name="displayLength" type="number">5</properties:property>
+        <properties:property name="integerDigits" type="number">5</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">zoned</properties:property>
+        <properties:property name="mask" type="string">9(5)</properties:property>
+        <properties:property name="storageLength" type="number">5</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:string id="parm_list.filler3" length="1" name="filler3">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="picture" type="string">x</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">x</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:number id="parm_list.parm_ut2_rewrite_count" length="5" name="parm_ut2_rewrite_count">
+      <properties:properties>
+        <properties:property name="picture" type="string">9(5)</properties:property>
+        <properties:property name="displayLength" type="number">5</properties:property>
+        <properties:property name="integerDigits" type="number">5</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">zoned</properties:property>
+        <properties:property name="mask" type="string">9(5)</properties:property>
+        <properties:property name="storageLength" type="number">5</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:string id="parm_list.filler4" length="1" name="filler4">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="picture" type="string">x</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">x</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:number id="parm_list.parm_ut3_write_count" length="5" name="parm_ut3_write_count">
+      <properties:properties>
+        <properties:property name="picture" type="string">9(5)</properties:property>
+        <properties:property name="displayLength" type="number">5</properties:property>
+        <properties:property name="integerDigits" type="number">5</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">zoned</properties:property>
+        <properties:property name="mask" type="string">9(5)</properties:property>
+        <properties:property name="storageLength" type="number">5</properties:property>
+      </properties:properties>
+    </listructure:number>
+  </listructure:struct>
+</listructure:listructure>

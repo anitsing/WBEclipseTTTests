@@ -1,0 +1,128 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="MOD" encoding="1047" fileStatus="00" id="Tests/Stubs/CWKVIF84_SYSUT3_FILE_01.stub" stubtype="QSAM" target="SYSUT3" token="10000">
+  <properties:properties>
+    <properties:property name="bufferType" type="string">BA</properties:property>
+  </properties:properties>
+  <stub:description>Created: Sep 18, 2025, 9:30:26 AM</stub:description>
+  <stub:stubdata id="0" name="SYSUT3">
+    <stub:interface>../Interfaces/CWKVIF84_SYSUT3_ut3_record.interface#Tests/Interfaces/CWKVIF84_SYSUT3_ut3_record.interface</stub:interface>
+    <stub:output listructure="../Structures/CWKVIF84_SYSUT3_ut3-record.listructure#Tests/Structures/CWKVIF84_SYSUT3_ut3-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT3_ut3-record.listructure#ut3_record" id="arg0.ut3_record">
+        <properties:properties>
+          <properties:property name="value" type="string">40F0F0F7F6F5F1F9F6F1F0F1F0F1C4C1D54040404040404040405C5CD7C5C1D9E2D6D5404040404040405C5CD4F1F9F8F1F0F1F0F1404040404040404040404040404040404040404040404040404040F0F0000000000000D985839699844094968489868985844040404040404040404040404040400000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="SYSUT3">
+    <stub:interface>../Interfaces/CWKVIF84_SYSUT3_ut3_record.interface#Tests/Interfaces/CWKVIF84_SYSUT3_ut3_record.interface</stub:interface>
+    <stub:output listructure="../Structures/CWKVIF84_SYSUT3_ut3-record.listructure#Tests/Structures/CWKVIF84_SYSUT3_ut3-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT3_ut3-record.listructure#ut3_record" id="arg0.ut3_record">
+        <properties:properties>
+          <properties:property name="value" type="string">40F0F0F8F8F7F1F9F6F2F0F2F0F2D2C1E3C8E8404040404040405C5CC4C5E3E3404040404040404040405C5CC6F1F9F8F2F0F2F0F2404040404040404040404040404040404040404040404040404040F0F0000000000000D985839699844094968489868985844040404040404040404040404040400000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="SYSUT3">
+    <stub:interface>../Interfaces/CWKVIF84_SYSUT3_ut3_record.interface#Tests/Interfaces/CWKVIF84_SYSUT3_ut3_record.interface</stub:interface>
+    <stub:output listructure="../Structures/CWKVIF84_SYSUT3_ut3-record.listructure#Tests/Structures/CWKVIF84_SYSUT3_ut3-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT3_ut3-record.listructure#ut3_record" id="arg0.ut3_record">
+        <properties:properties>
+          <properties:property name="value" type="string">40F0F0F9F5F9F1F9F6F3F0F3F0F3C4D6D5D5C1404040404040405C5CC2D9D6E6D54040404040404040405C5CC6F1F9F8F3F0F3F0F3404040404040404040404040404040404040404040404040404040F0F0000000000000D985839699844094968489868985844040404040404040404040404040400000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="3" name="SYSUT3">
+    <stub:interface>../Interfaces/CWKVIF84_SYSUT3_ut3_record.interface#Tests/Interfaces/CWKVIF84_SYSUT3_ut3_record.interface</stub:interface>
+    <stub:output listructure="../Structures/CWKVIF84_SYSUT3_ut3-record.listructure#Tests/Structures/CWKVIF84_SYSUT3_ut3-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT3_ut3-record.listructure#ut3_record" id="arg0.ut3_record">
+        <properties:properties>
+          <properties:property name="value" type="string">40F0F1F1F8F9F1F9F6F4F0F4F0F4D2C1D9C5D5404040404040405C5CD1D6C8D5E2D6D5404040404040405C5CC6F1F9F8F4F0F4F0F4404040404040404040404040404040404040404040404040404040F0F0000000000000D985839699844094968489868985844040404040404040404040404040400000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="4" name="SYSUT3">
+    <stub:interface>../Interfaces/CWKVIF84_SYSUT3_ut3_record.interface#Tests/Interfaces/CWKVIF84_SYSUT3_ut3_record.interface</stub:interface>
+    <stub:output listructure="../Structures/CWKVIF84_SYSUT3_ut3-record.listructure#Tests/Structures/CWKVIF84_SYSUT3_ut3-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT3_ut3-record.listructure#ut3_record" id="arg0.ut3_record">
+        <properties:properties>
+          <properties:property name="value" type="string">40F0F1F3F1F8F1F9F6F5F0F5F0F5C1E4C4D9C5E84040404040405C5CC3D3C1D9D24040404040404040405C5CC6F1F9F8F5F0F5F0F5404040404040404040404040404040404040404040404040404040F0F0000000000000D985839699844094968489868985844040404040404040404040404040400000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="5" name="SYSUT3">
+    <stub:interface>../Interfaces/CWKVIF84_SYSUT3_ut3_record.interface#Tests/Interfaces/CWKVIF84_SYSUT3_ut3_record.interface</stub:interface>
+    <stub:output listructure="../Structures/CWKVIF84_SYSUT3_ut3-record.listructure#Tests/Structures/CWKVIF84_SYSUT3_ut3-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT3_ut3-record.listructure#ut3_record" id="arg0.ut3_record">
+        <properties:properties>
+          <properties:property name="value" type="string">40F0F1F3F4F3F1F9F6F6F0F6F0F5D1C1D4C5E2404040404040405C5CD4D6D9D9C9E2D6D54040404040405C5CD4F1F9F8F6F0F6F0F5404040404040404040404040404040404040404040404040404040F0F0000000000000D985839699844094968489868985844040404040404040404040404040400000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="6" name="SYSUT3">
+    <stub:interface>../Interfaces/CWKVIF84_SYSUT3_ut3_record.interface#Tests/Interfaces/CWKVIF84_SYSUT3_ut3_record.interface</stub:interface>
+    <stub:output listructure="../Structures/CWKVIF84_SYSUT3_ut3-record.listructure#Tests/Structures/CWKVIF84_SYSUT3_ut3-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT3_ut3-record.listructure#ut3_record" id="arg0.ut3_record">
+        <properties:properties>
+          <properties:property name="value" type="string">40F0F1F5F6F8F1F9F6F7F0F7F0F7E3C8D6D4C1E24040404040405C5CD3D6D5C7404040404040404040405C5CD4F1F9F8F7F0F7F0F7404040404040404040404040404040404040404040404040404040F0F0000000000000D985839699844094968489868985844040404040404040404040404040400000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="7" name="SYSUT3">
+    <stub:interface>../Interfaces/CWKVIF84_SYSUT3_ut3_record.interface#Tests/Interfaces/CWKVIF84_SYSUT3_ut3_record.interface</stub:interface>
+    <stub:output listructure="../Structures/CWKVIF84_SYSUT3_ut3-record.listructure#Tests/Structures/CWKVIF84_SYSUT3_ut3-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT3_ut3-record.listructure#ut3_record" id="arg0.ut3_record">
+        <properties:properties>
+          <properties:property name="value" type="string">40F0F2F0F1F0F1F9F6F8F0F8F0F8D4C9C3C8C1C5D340404040405C5CC4C1E8E3D6D540404040404040405C5CD4F1F9F8F8F0F8F0F8404040404040404040404040404040404040404040404040404040F0F0000000000000D985839699844094968489868985844040404040404040404040404040400000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="8" name="SYSUT3">
+    <stub:interface>../Interfaces/CWKVIF84_SYSUT3_ut3_record.interface#Tests/Interfaces/CWKVIF84_SYSUT3_ut3_record.interface</stub:interface>
+    <stub:output listructure="../Structures/CWKVIF84_SYSUT3_ut3-record.listructure#Tests/Structures/CWKVIF84_SYSUT3_ut3-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT3_ut3-record.listructure#ut3_record" id="arg0.ut3_record">
+        <properties:properties>
+          <properties:property name="value" type="string">40F0F2F1F3F6F1F9F6F9F0F9F0F9E2C1D44040404040404040405C5CD4C9D3D3E24040404040404040405C5CD4F1F9F8F9F0F9F0F9404040404040404040404040404040404040404040404040404040F0F0000000000000D985839699844094968489868985844040404040404040404040404040400000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="9" name="SYSUT3">
+    <stub:interface>../Interfaces/CWKVIF84_SYSUT3_ut3_record.interface#Tests/Interfaces/CWKVIF84_SYSUT3_ut3_record.interface</stub:interface>
+    <stub:output listructure="../Structures/CWKVIF84_SYSUT3_ut3-record.listructure#Tests/Structures/CWKVIF84_SYSUT3_ut3-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT3_ut3-record.listructure#ut3_record" id="arg0.ut3_record">
+        <properties:properties>
+          <properties:property name="value" type="string">40F0F2F1F7F1F1F9F7F0F1F0F1F0D1D6C8D540404040404040405C5CC1C4C1D4E24040404040404040405C5CD4F1F9F9F0F1F0F1F0404040404040404040404040404040404040404040404040404040F0F0000000000000D985839699844094968489868985844040404040404040404040404040400000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="10" name="SYSUT3">
+    <stub:interface>../Interfaces/CWKVIF84_SYSUT3_ut3_record.interface#Tests/Interfaces/CWKVIF84_SYSUT3_ut3_record.interface</stub:interface>
+    <stub:output listructure="../Structures/CWKVIF84_SYSUT3_ut3-record.listructure#Tests/Structures/CWKVIF84_SYSUT3_ut3-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT3_ut3-record.listructure#ut3_record" id="arg0.ut3_record">
+        <properties:properties>
+          <properties:property name="value" type="string">40F9F9F9F9F9F1F9F7F0F2F0F1F0D9D6E84040404040404040405C5CC6D9C5C4D9C9C3D2E240404040405C5CD4F1F9F9F0F2F0F1F1404040404040404040404040404040404040404040404040404040F2F3000800000010C995A581938984409285A8404040404040404040404040404040404040400000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+</stub:stub>

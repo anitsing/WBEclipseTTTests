@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5f50e3860a12070a101e9250" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" environmentId="cw01.bmc.com:56086">
+  <ExtensionData>
+    <Parameter key="envname">
+      <Value>Test</Value>
+    </Parameter>
+    <Parameter key="level">
+      <Value>PDSE</Value>
+    </Parameter>
+    <Parameter key="unittest.loadlibraries">
+      <Value>CM.KTTADEV.PROD.LOAD</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWKVIF84" caseInsensitiveCompare="false" path="CWKVIF84_Scenario.testscenario">
+    <Test>
+      <Unittest testscenariopath="CWKVIF84_Scenario.testscenario" moduleName="CWKVIF84" />
+    </Test>
+  </XaUnit>
+</ExecutionContext>

@@ -1,0 +1,85 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?totaltestVersion 25.2.1.v20250915-2137_91?>
+<!--BMC AMI DevX Total Test 25.2.1.v20250915-2137_91 Sep 18, 2025, 9:30:26 AM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Tests/Structures/CWKVIF84_SYSUT2_ut2-record.listructure">
+  <listructure:struct id="ut2_record" name="ut2_record">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">80</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">80</properties:property>
+    </properties:properties>
+    <listructure:string id="ut2_record.ut2_emp_no" length="5" name="ut2_emp_no">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(5)</properties:property>
+        <properties:property name="displayLength" type="number">5</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(5)</properties:property>
+        <properties:property name="storageLength" type="number">5</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:number id="ut2_record.ut2_birth_date" length="8" name="ut2_birth_date">
+      <properties:properties>
+        <properties:property name="picture" type="string">9(8)</properties:property>
+        <properties:property name="displayLength" type="number">8</properties:property>
+        <properties:property name="integerDigits" type="number">8</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">zoned</properties:property>
+        <properties:property name="mask" type="string">9(8)</properties:property>
+        <properties:property name="storageLength" type="number">8</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:string id="ut2_record.ut2_first_name" length="14" name="ut2_first_name">
+      <properties:properties>
+        <properties:property name="picture" type="string">x(14)</properties:property>
+        <properties:property name="displayLength" type="number">14</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">x(14)</properties:property>
+        <properties:property name="storageLength" type="number">14</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="ut2_record.ut2_last_name" length="16" name="ut2_last_name">
+      <properties:properties>
+        <properties:property name="picture" type="string">x(16)</properties:property>
+        <properties:property name="displayLength" type="number">16</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">x(16)</properties:property>
+        <properties:property name="storageLength" type="number">16</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="ut2_record.ut2_gender" length="1" name="ut2_gender">
+      <properties:properties>
+        <properties:property name="picture" type="string">x</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">x</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:number id="ut2_record.ut2_hire_date" length="8" name="ut2_hire_date">
+      <properties:properties>
+        <properties:property name="picture" type="string">9(8)</properties:property>
+        <properties:property name="displayLength" type="number">8</properties:property>
+        <properties:property name="integerDigits" type="number">8</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">zoned</properties:property>
+        <properties:property name="mask" type="string">9(8)</properties:property>
+        <properties:property name="storageLength" type="number">8</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:string id="ut2_record.filler0" length="28" name="filler0">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="picture" type="string">x(28)</properties:property>
+        <properties:property name="displayLength" type="number">28</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">x(28)</properties:property>
+        <properties:property name="storageLength" type="number">28</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>

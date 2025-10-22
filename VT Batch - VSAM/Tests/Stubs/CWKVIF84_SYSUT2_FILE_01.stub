@@ -1,0 +1,214 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" fileStatus="00" id="Tests/Stubs/CWKVIF84_SYSUT2_FILE_01.stub" keyLength="5" keyPosition="0" stubtype="VSAM KSDS (Organization: Index)" target="SYSUT2" token="20000">
+  <stub:description>Created: Sep 18, 2025, 9:30:26 AM</stub:description>
+  <stub:stubdata id="0" name="SYSUT2">
+    <stub:interface>../Interfaces/CWKVIF84_SYSUT2_ut2_record.interface#Tests/Interfaces/CWKVIF84_SYSUT2_ut2_record.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKVIF84_SYSUT2_ut2_record.interface#Tests/Interfaces/CWKVIF84_SYSUT2_ut2_record.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#Tests/Structures/CWKVIF84_SYSUT2_ut2-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#ut2_record" id="arg0.ut2_record">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F7F6F6000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#Tests/Structures/CWKVIF84_SYSUT2_ut2-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#ut2_record" id="arg0.ut2_record">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F7F6F6F1F9F6F1F0F1F0F1C4C1D54040404040404040405C5CD7C5C1D9E2D6D5404040404040405C5CD4F1F9F8F1F0F1F0F140404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:key value="F0F0F7F6F6"/>
+    <stub:inputkey value="F0F0F7F6F5"/>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="SYSUT2">
+    <stub:interface>../Interfaces/CWKVIF84_SYSUT2_ut2_record.interface#Tests/Interfaces/CWKVIF84_SYSUT2_ut2_record.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKVIF84_SYSUT2_ut2_record.interface#Tests/Interfaces/CWKVIF84_SYSUT2_ut2_record.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#Tests/Structures/CWKVIF84_SYSUT2_ut2-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#ut2_record" id="arg0.ut2_record">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F8F8F7000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#Tests/Structures/CWKVIF84_SYSUT2_ut2-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#ut2_record" id="arg0.ut2_record">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F8F8F7F1F9F6F2F0F2F0F2D2C1E3C8E8404040404040405C5CC4C5E3E3404040404040404040405C5CC6F1F9F8F2F0F2F0F240404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:key value="F0F0F8F8F7"/>
+    <stub:inputkey value="F0F0F8F8F7"/>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="SYSUT2">
+    <stub:interface>../Interfaces/CWKVIF84_SYSUT2_ut2_record.interface#Tests/Interfaces/CWKVIF84_SYSUT2_ut2_record.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKVIF84_SYSUT2_ut2_record.interface#Tests/Interfaces/CWKVIF84_SYSUT2_ut2_record.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#Tests/Structures/CWKVIF84_SYSUT2_ut2-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#ut2_record" id="arg0.ut2_record">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F9F5F9000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#Tests/Structures/CWKVIF84_SYSUT2_ut2-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#ut2_record" id="arg0.ut2_record">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F9F5F9F1F9F6F3F0F3F0F3C4D6D5D5C1404040404040405C5CC2D9D6E6D54040404040404040405C5CC6F1F9F8F3F0F3F0F340404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:key value="F0F0F9F5F9"/>
+    <stub:inputkey value="F0F0F9F5F9"/>
+  </stub:stubdata>
+  <stub:stubdata id="3" name="SYSUT2">
+    <stub:interface>../Interfaces/CWKVIF84_SYSUT2_ut2_record.interface#Tests/Interfaces/CWKVIF84_SYSUT2_ut2_record.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKVIF84_SYSUT2_ut2_record.interface#Tests/Interfaces/CWKVIF84_SYSUT2_ut2_record.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#Tests/Structures/CWKVIF84_SYSUT2_ut2-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#ut2_record" id="arg0.ut2_record">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F1F1F8F9000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#Tests/Structures/CWKVIF84_SYSUT2_ut2-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#ut2_record" id="arg0.ut2_record">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F1F1F8F9F1F9F6F4F0F4F0F4D2C1D9C5D5404040404040405C5CD1D6C8D5E2D6D5404040404040405C5CC6F1F9F8F4F0F4F0F440404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:key value="F0F1F1F8F9"/>
+    <stub:inputkey value="F0F1F1F8F9"/>
+  </stub:stubdata>
+  <stub:stubdata id="4" name="SYSUT2">
+    <stub:interface>../Interfaces/CWKVIF84_SYSUT2_ut2_record.interface#Tests/Interfaces/CWKVIF84_SYSUT2_ut2_record.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKVIF84_SYSUT2_ut2_record.interface#Tests/Interfaces/CWKVIF84_SYSUT2_ut2_record.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#Tests/Structures/CWKVIF84_SYSUT2_ut2-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#ut2_record" id="arg0.ut2_record">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F1F3F1F8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#Tests/Structures/CWKVIF84_SYSUT2_ut2-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#ut2_record" id="arg0.ut2_record">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F1F3F1F8F1F9F6F5F0F5F0F5C1E4C4D9C5E84040404040405C5CC3D3C1D9D24040404040404040405C5CC6F1F9F8F5F0F5F0F540404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:key value="F0F1F3F1F8"/>
+    <stub:inputkey value="F0F1F3F1F8"/>
+  </stub:stubdata>
+  <stub:stubdata id="5" name="SYSUT2">
+    <stub:interface>../Interfaces/CWKVIF84_SYSUT2_ut2_record.interface#Tests/Interfaces/CWKVIF84_SYSUT2_ut2_record.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKVIF84_SYSUT2_ut2_record.interface#Tests/Interfaces/CWKVIF84_SYSUT2_ut2_record.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#Tests/Structures/CWKVIF84_SYSUT2_ut2-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#ut2_record" id="arg0.ut2_record">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F1F3F4F3000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#Tests/Structures/CWKVIF84_SYSUT2_ut2-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#ut2_record" id="arg0.ut2_record">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F1F3F4F3F1F9F6F6F0F6F0F5D1C1D4C5E2404040404040405C5CD4D6D9D9C9E2D6D54040404040405C5CD4F1F9F8F6F0F6F0F540404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:key value="F0F1F3F4F3"/>
+    <stub:inputkey value="F0F1F3F4F3"/>
+  </stub:stubdata>
+  <stub:stubdata id="6" name="SYSUT2">
+    <stub:interface>../Interfaces/CWKVIF84_SYSUT2_ut2_record.interface#Tests/Interfaces/CWKVIF84_SYSUT2_ut2_record.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKVIF84_SYSUT2_ut2_record.interface#Tests/Interfaces/CWKVIF84_SYSUT2_ut2_record.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#Tests/Structures/CWKVIF84_SYSUT2_ut2-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#ut2_record" id="arg0.ut2_record">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F1F5F6F8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#Tests/Structures/CWKVIF84_SYSUT2_ut2-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#ut2_record" id="arg0.ut2_record">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F1F5F6F8F1F9F6F7F0F7F0F7E3C8D6D4C1E24040404040405C5CD3D6D5C7404040404040404040405C5CD4F1F9F8F7F0F7F0F740404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:key value="F0F1F5F6F8"/>
+    <stub:inputkey value="F0F1F5F6F8"/>
+  </stub:stubdata>
+  <stub:stubdata id="7" name="SYSUT2">
+    <stub:interface>../Interfaces/CWKVIF84_SYSUT2_ut2_record.interface#Tests/Interfaces/CWKVIF84_SYSUT2_ut2_record.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKVIF84_SYSUT2_ut2_record.interface#Tests/Interfaces/CWKVIF84_SYSUT2_ut2_record.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#Tests/Structures/CWKVIF84_SYSUT2_ut2-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#ut2_record" id="arg0.ut2_record">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F0F1F0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#Tests/Structures/CWKVIF84_SYSUT2_ut2-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#ut2_record" id="arg0.ut2_record">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F0F1F0F1F9F6F8F0F8F0F8D4C9C3C8C1C5D340404040405C5CC4C1E8E3D6D540404040404040405C5CD4F1F9F8F8F0F8F0F840404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:key value="F0F2F0F1F0"/>
+    <stub:inputkey value="F0F2F0F1F0"/>
+  </stub:stubdata>
+  <stub:stubdata id="8" name="SYSUT2">
+    <stub:interface>../Interfaces/CWKVIF84_SYSUT2_ut2_record.interface#Tests/Interfaces/CWKVIF84_SYSUT2_ut2_record.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKVIF84_SYSUT2_ut2_record.interface#Tests/Interfaces/CWKVIF84_SYSUT2_ut2_record.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#Tests/Structures/CWKVIF84_SYSUT2_ut2-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#ut2_record" id="arg0.ut2_record">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F1F3F6000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#Tests/Structures/CWKVIF84_SYSUT2_ut2-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#ut2_record" id="arg0.ut2_record">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F1F3F6F1F9F6F9F0F9F0F9E2C1D44040404040404040405C5CD4C9D3D3E24040404040404040405C5CD4F1F9F8F9F0F9F0F940404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:key value="F0F2F1F3F6"/>
+    <stub:inputkey value="F0F2F1F3F6"/>
+  </stub:stubdata>
+  <stub:stubdata id="9" name="SYSUT2">
+    <stub:interface>../Interfaces/CWKVIF84_SYSUT2_ut2_record.interface#Tests/Interfaces/CWKVIF84_SYSUT2_ut2_record.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKVIF84_SYSUT2_ut2_record.interface#Tests/Interfaces/CWKVIF84_SYSUT2_ut2_record.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#Tests/Structures/CWKVIF84_SYSUT2_ut2-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#ut2_record" id="arg0.ut2_record">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F1F7F1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#Tests/Structures/CWKVIF84_SYSUT2_ut2-record.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKVIF84_SYSUT2_ut2-record.listructure#ut2_record" id="arg0.ut2_record">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F1F7F1F1F9F7F0F1F0F1F0D1D6C8D540404040404040405C5CC1C4C1D4E24040404040404040405C5CD4F1F9F9F0F1F0F1F040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:key value="F0F2F1F7F1"/>
+    <stub:inputkey value="F0F2F1F7F1"/>
+  </stub:stubdata>
+</stub:stub>

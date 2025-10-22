@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 25.2.1.v20250915-2137_91?>
+<!--BMC AMI DevX Total Test 25.2.1.v20250915-2137_91 Sep 18, 2025, 9:30:26 AM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Tests/Interfaces/CWKVIF84.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/CWKVIF84_parm-list.listructure#Tests/Structures/CWKVIF84_parm-list.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CWKVIF84_parm-list.listructure#parm_list">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWKVIF84_parm-list.listructure#parm_list.parm_len">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CWKVIF84_parm-list.listructure#parm_list.parm_runtime_options">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWKVIF84_parm-list.listructure#parm_list.parm_runtime_options.parm_ut2o_iop_mode">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWKVIF84_parm-list.listructure#parm_list.parm_runtime_options.parm_ut2o_move">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWKVIF84_parm-list.listructure#parm_list.parm_runtime_options.filler0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWKVIF84_parm-list.listructure#parm_list.filler1">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWKVIF84_parm-list.listructure#parm_list.parm_ut1_start_rn">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWKVIF84_parm-list.listructure#parm_list.filler2">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWKVIF84_parm-list.listructure#parm_list.parm_ut1_read_count">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWKVIF84_parm-list.listructure#parm_list.filler3">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWKVIF84_parm-list.listructure#parm_list.parm_ut2_rewrite_count">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWKVIF84_parm-list.listructure#parm_list.filler4">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWKVIF84_parm-list.listructure#parm_list.parm_ut3_write_count">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

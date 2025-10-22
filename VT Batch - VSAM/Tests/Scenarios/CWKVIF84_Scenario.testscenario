@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 25.2.1.v20250915-2137_91?>
+<!--BMC AMI DevX Total Test 25.2.1.v20250915-2137_91 Sep 18, 2025, 9:30:26 AM-->
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Tests/Scenarios/CWKVIF84_Scenario.testscenario">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="CWKVIF84" encoding="1047" entrypoint="CWKVIF84" id="Tests/Scenarios/CWKVIF84_Scenario.testscenario%23CWKVIF84Case1" target="CWK4IF84">
+      <testcase:description></testcase:description>
+      <testcase:ddio>CM.KTTADEV.PROD.LISTCSS.S0000000</testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1556566232000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWKVIF84.interface#Tests/Interfaces/CWKVIF84.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWKVIF84_parm-list.listructure#Tests/Structures/CWKVIF84_parm-list.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWKVIF84_parm-list.listructure#parm_list" id="arg0.parm_list">
+          <properties:properties>
+            <properties:property name="value" type="string">000ED3C77B7B7B7B7B7B6BF0F0F0F0F1000000000000000000000000000000000000</properties:property>
+            <properties:property name="expectedValue" type="string">000ED3C77B7B7B7B7B7B6BF0F0F0F0F100F0F0F0F1F100F0F0F0F1F000F0F0F0F1F1</properties:property>
+            <properties:property name="address" type="string">3E527568</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWKVIF84_SYSUT1_FILE_01.stub#Tests/Stubs/CWKVIF84_SYSUT1_FILE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWKVIF84_SYSUT2_FILE_01.stub#Tests/Stubs/CWKVIF84_SYSUT2_FILE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWKVIF84_SYSUT3_FILE_01.stub#Tests/Stubs/CWKVIF84_SYSUT3_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/CWKVIF84_RETURN-CODE.listructure#Tests/Structures/CWKVIF84_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWKVIF84_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWKVIF84</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>
