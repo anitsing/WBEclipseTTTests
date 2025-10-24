@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5f50e3860a12070a101e9250" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" environmentId="cw01.bmc.com:56086">
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="CW01-16196 Batch" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" environmentId="cw01.bmc.com:16196">
   <ExtensionData>
     <Parameter key="envname">
       <Value>Test</Value>
